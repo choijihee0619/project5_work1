@@ -1,0 +1,27 @@
+1. git으로 관리할 경로까지 이동
+2. 초기화 (.git 폴더 생성 - 숨겨져 있음) 한번만
+    git init
+
+3. 브랜치 이름 기본값 변경하기 (master->main)
+git config --global init.defaultBranch main 
+
+4. git 상태확인
+git status
+
+5. git 으로 관리하는 파일로 추가
+git add .
+
+6. commit(해당시점을 저장)
+git commit -m "커밋 메시지": 왜 커밋을 했는지 잘 알 수 있도록 저장해주면 됨
+
+7.commit 이전에 계정정보 등록 (--global 옵션은 해당컴퓨터 전체에 적용)
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+8. commit 정보 확인
+git log
+
+9. 과제
+project-5/test1를 생성
+git으로 관리
+파일 생성은 알아서... 최소 커밋의 수는 5번 이상 되도록 하세요
