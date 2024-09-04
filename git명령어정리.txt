@@ -1,6 +1,7 @@
 1. git으로 관리할 경로까지 이동
 2. 초기화 (.git 폴더 생성 - 숨겨져 있음) 한번만
     git init
+    삭제는 rm -rf .git
 
 3. 브랜치 이름 기본값 변경하기 (master->main)
 git config --global init.defaultBranch main 
@@ -44,6 +45,25 @@ git remote rm origin
 4. github 데이터 넣기
 git push -u origin main
 git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
